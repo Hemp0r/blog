@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run compile && http-server ./dist/",
+    "build": "tsc",
+    "compile": "bun ./src/compile.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "http-server": "^14.1.1",
+    "marked": "^16.4.1"
+  }
+}

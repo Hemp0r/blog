@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "compile.ts",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["blog/**", "static/**", "layout.html", "style.css"]
+      }
+    }
+  ],
+  "buildCommand": "npm run compile",
+  "outputDirectory": "dist",
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}

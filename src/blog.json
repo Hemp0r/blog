@@ -1,0 +1,8 @@
+{
+    "posts": [{
+        "file": "blog/github-token-registry.md",
+        "title": "The Missing Scope in GitHub's Container Login Instructions",
+        "date": "2025-11-02",
+        "DESCRIPTION": "Fix GitHub Container Registry (GHCR) login errors by understanding the missing token scopes. Learn why docker login fails and how to correctly configure your GitHub PAT for CI/CD."
+    }]
+}
