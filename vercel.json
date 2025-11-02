@@ -5,7 +5,7 @@
       "src": "compile.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["blog/**", "static/**", "layout.html", "style.css"]
+        "includeFiles": ["blog/**", "src/**"]
       }
     }
   ],
